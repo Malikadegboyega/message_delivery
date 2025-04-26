@@ -1,0 +1,36 @@
+sadr_message='At the national Ijtema, each Ilaqa presents a team of six people.'
+sample_text='The team members are spaced at a meter and half away. And each Ilaqa Spaced at a metre away.'#paste each recall here for grading
+count=0 #always reset count to zero before grading.
+#create the Sadr`s text as a template by placing each word and punctuation in the if statement as shown below.
+if 'At' in sample_text:
+    count+=1
+if 'the' in sample_text:
+    count+=1
+if 'national' in sample_text:
+    count+=1
+if 'Ijtema' in sample_text:
+    count+=1
+if ',' in sample_text:
+    count+=1
+if 'each' in sample_text:
+    count+=1
+if 'Ilaqa' in sample_text:
+    count+=1
+if 'presents' in sample_text:
+    count+=1
+if 'a' in sample_text:
+    count+=1
+if 'team' in sample_text:
+    count+=1
+if 'of' in sample_text:
+    count+=1
+if 'six' in sample_text:
+    count+=1
+if 'people' in sample_text:
+    count+=1
+if '.' in sample_text:
+    count+=1
+
+percentage=(count/14)*100
+print('percentage of True responses:', percentage)
+                
